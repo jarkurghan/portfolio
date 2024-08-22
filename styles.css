@@ -24,10 +24,10 @@
     grid-template-columns: 1fr 1fr;
     position: relative;
     padding-inline: 96px;
-    gap: 96px;
 }
 
 .content {
+    /* padding: 48px; */
     padding-bottom: 496px;
 }
 #about,

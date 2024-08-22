@@ -1,0 +1,75 @@
+#experience {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.experience {
+    display: grid;
+    grid-template-columns: 120px auto;
+    cursor: pointer;
+    transition: 0.1s;
+    padding: 12px 24px;
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+}
+
+.experience:hover {
+    background-color: #7fffd411;
+    border-radius: 10px;
+}
+
+.experience:hover::after {
+    content: "↗";
+    position: absolute;
+    right: 12px;
+    font-size: x-large;
+    transition: 0.5s;
+}
+
+.experience-period {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.experience-period-item:hover {
+    color: aquamarine;
+}
+
+.experience-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.experience-company,
+.experience-profession {
+    font-weight: 600;
+    color: #7fffd4aa;
+}
+
+.experience-description {
+    /* text-align: justify; */
+    font-size: 13px;
+}
+
+.experience-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.experience-skills > span {
+    background-color: rgb(94 234 212 / 0.2);
+    padding: 2px 7px;
+    border-radius: 15px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+
+    color: aquamarine;
+    /* background-color: rgb(15 23 42); */
+}
