@@ -36,3 +36,25 @@
     text-decoration: none;
     color: inherit;
 }
+
+.sider-social {
+    font-size: 24px;
+    display: flex;
+    gap: 6px;
+}
+
+.sider-social > div {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.05s;
+}
+
+.sider-social > div:hover {
+    background-color: rgb(94 234 212 / 0.1);
+    font-size: 32px;
+}
