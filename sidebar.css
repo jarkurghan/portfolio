@@ -43,7 +43,7 @@
     gap: 6px;
 }
 
-.sider-social > div {
+.sider-social > a {
     width: 48px;
     height: 48px;
     display: flex;
@@ -52,9 +52,11 @@
     border-radius: 50%;
     cursor: pointer;
     transition: 0.05s;
+    text-decoration: none;
+    color: inherit;
 }
 
-.sider-social > div:hover {
+.sider-social > a:hover {
     background-color: rgb(94 234 212 / 0.1);
     font-size: 32px;
 }
