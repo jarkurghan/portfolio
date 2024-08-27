@@ -37,12 +37,14 @@
     color: inherit;
 }
 
+.action-social,
 .sider-social {
     font-size: 24px;
     display: flex;
     gap: 6px;
 }
 
+.action-social > a,
 .sider-social > a {
     width: 48px;
     height: 48px;
@@ -56,7 +58,27 @@
     color: inherit;
 }
 
+.action-social > a:hover,
 .sider-social > a:hover {
     background-color: rgb(94 234 212 / 0.1);
     font-size: 32px;
+}
+
+.action-social {
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .sider {
+        padding-block: 24px;
+        padding-inline: 12px;
+        position: relative;
+        height: fit-content;
+    }
+    .sider-social {
+        display: none;
+    }
+    .action-social {
+        display: flex;
+    }
 }

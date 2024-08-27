@@ -29,6 +29,13 @@
     padding-inline: 96px;
 }
 
+@media only screen and (max-width: 1200px) {
+    .container {
+        grid-template-columns: 1fr;
+        padding-inline: 6px;
+    }
+}
+
 #projects {
     padding-bottom: 48px;
 }
@@ -41,4 +48,15 @@
 
 #about {
     padding-left: 24px;
+}
+
+@media only screen and (max-width: 1200px) {
+    #about,
+    #experience,
+    #projects {
+        padding-top: 24px;
+    }
+    #about {
+        padding-left: 12px;
+    }
 }
