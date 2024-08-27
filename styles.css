@@ -23,11 +23,16 @@
     padding-inline: 96px;
 }
 
-.content {
-    padding-bottom: 496px;
+#projects {
+    padding-bottom: 48px;
 }
+
 #about,
 #experience,
 #projects {
     padding-top: 96px;
+}
+
+#about {
+    padding-left: 24px;
 }

@@ -20,7 +20,7 @@
     border-radius: 10px;
 }
 
-.project:hover::after {
+a.project:hover::after {
     content: "↗";
     position: absolute;
     right: 12px;

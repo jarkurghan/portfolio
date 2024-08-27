@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="sidebar.css" />
         <link rel="stylesheet" href="experience.css" />
         <link rel="stylesheet" href="projects.css" />
+        <link rel="stylesheet" href="action.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <title>Portfolio</title>
     </head>
@@ -17,12 +18,13 @@
                 <div class="sider">
                     <div class="sider-body">
                         <div class="sider-name">Najmiddin Nazirov</div>
-                        <div class="sider-profession">Full stack developer - middle</div>
+                        <div class="sider-profession">Full stack developer</div>
                         <div class="sider-description">I am Full-Stack developer with 2.5 years experience</div>
                         <div class="sider-menu">
                             <a href="#about">⊳ About</a>
                             <a href="#experience">⊳ Experience</a>
                             <a href="#projects">⊳ Projects</a>
+                            <a href="#actions">⊳ Translate</a>
                         </div>
                     </div>
                     <div class="sider-social">
@@ -37,7 +39,7 @@
                         <div id="about">
                             Dasturlashdagi kirib kelishim universitet davrida bo'lgan. Dasturlash sohasiga yaqin bo'lgan axborot xavfsizligi yo'nalishi C++,
                             Python va Web dasturlash bo'yicha boshlang'ich bilimlarimni olishimga sabab bo'lgan. Professional tajribam esa 2021-yil 4-kurslik
-                            davrimda boshlangan. Shu davr mobaynida asosan javascript tilida yoziladigan frameworklarda ishladim
+                            davrimda boshlangan
                         </div>
                     </div>
                     <div>
@@ -99,7 +101,7 @@
                                 </div>
                                 <div class="project-description">
                                     O'zbek tilidagi so'zlar ma'nolarining izohli lug'ati. G'oyasi o'zimga tegishli bo'lgan, har bir kodini o'zim yozgan birinchi
-                                    proyekt. Admin qismi va foydalanuvchi qismiga bo'linadi. Admin tomondan so'zlar va so'z haqida ma'lumotlar kiritiladi,
+                                    proyekt. Proyekt admin va foydalanuvchi qismiga bo'linadi. Admin tomondan so'zlar va so'z haqida ma'lumotlar kiritiladi,
                                     foydalanuvchi tomon esa ochiq qidiruv tizimi kabi ishlaydi
                                     <div class="project-skills">
                                         <span>React</span>
@@ -120,8 +122,7 @@
                                     <span class="project-period-item">2021 nov</span> - <span class="project-period-item">2021 Dec</span>
                                 </div>
                                 <div class="project-description">
-                                    Shaxsiy portfoliom. Oldingi loyihalarimni namoyish qiluvchi veb-sayt. Shaxsiy ko'nikmalarim va professional tajribam
-                                    tavsifi.
+                                    Shaxsiy portfoliom. Oldingi loyihalarim, shaxsiy ko'nikmalarim va professional tajribam haqida veb-sayt
                                     <div class="project-skills">
                                         <span>HTML</span>
                                         <span>CSS</span>
@@ -129,6 +130,43 @@
                                     </div>
                                 </div>
                             </a>
+                            <div class="project">
+                                <div class="project-empty-box"></div>
+                                <div class="project-title">
+                                    <div class="project-company">Transoxania</div>
+                                </div>
+                                <div class="project-period">
+                                    <span class="project-period-item">2021 nov</span> - <span class="project-period-item">2021 Dec</span>
+                                </div>
+                                <div class="project-description">
+                                    90% proyektlarim Transoxania Technology Solutions MChJga tegishli. Xavfsizlik shartnomasi sabab bu dasturlar haqida ochiq
+                                    manbaga ma'lumot qo'yolmayman
+                                    <div class="project-skills">
+                                        <span>NodeJS</span>
+                                        <span>ExpressJS</span>
+                                        <span>Typescript</span>
+                                        <span>ReactJS</span>
+                                        <span>Redux</span>
+                                        <span>Angular</span>
+                                        <span>Typescript</span>
+                                        <span>Redis</span>
+                                        <span>PostgreSQL</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div id="actions">
+                            <div class="translate" onclick="showTranslate()">
+                                <i class="fa fa-language translate-icon"></i>
+                                <span class="translate-text">translate</span>
+                                <div class="translate-menu">
+                                    <a href="./uz" style="--index: 0">O'zbekcha</a>
+                                    <a href="" style="--index: 1">Русский</a>
+                                    <a href="" style="--index: 2">English</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
