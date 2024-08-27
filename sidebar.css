@@ -75,6 +75,13 @@
         position: relative;
         height: fit-content;
     }
+    .sider-name {
+        font-size: 30px;
+        padding-top: 12px;
+    }
+    .sider-profession {
+        padding-top: 6px;
+    }
     .sider-social {
         display: none;
     }
