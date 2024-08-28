@@ -84,3 +84,9 @@ a.project:hover::after {
     font-weight: 500;
     color: aquamarine;
 }
+
+.project-image {
+    border: 2px solid #ffffff66;
+    opacity: 0.7;
+    border-radius: 3px;
+}
