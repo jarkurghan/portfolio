@@ -7,7 +7,14 @@ if (lang === "uz") {
     document.querySelector("#about>.title").textContent = "Men haqimda";
     document.querySelector("#about>.info").textContent = "Dasturlashga kirib kelishim universitet davrida bo'lgan. Dasturlash sohasiga yaqin bo'lgan axborot xavfsizligi yo'nalishi C++, Python va Web dasturlash bo'yicha boshlang'ich bilimlarimni olishimga sabab bo'lgan. Professional tajribam esa 2021-yil 4-kurslik davrimda boshlangan";
     document.querySelector("#experience>.title").textContent = "Tajriba";
-    document.querySelector('a[href*="transoxania.uz"] .experience-description') // ...
+    document.querySelector('a[href*="transoxania.uz"] .experience-profession').textContent = "Full-Stack dastruchi"
+    document.querySelector('a[href*="transoxania.uz"] .exp-start').textContent = "2022 aprel"
+    document.querySelector('a[href*="transoxania.uz"] .exp-end').textContent = "Hozirgi"
+    document.querySelector('a[href*="transoxania.uz"] .experience-description-info').textContent = "Transoxania MChJda web-dasturchi. 2,5 yillik faoliyatim davomida o‘nlab loyihalarda ishtirok etdim. Texnik darajam anchagina oshdi. Men ba'zi loyihalarning obyekt modelini tayyorladim va hatto ba'zi loyihalarda TeamLead bo'ldim. Men asosan NodeJS, ExpressJS, KnexJS, PostgreSQL, Redis texnologiyalari yordamida APIlarni va ReactJS, Angular yordamida UI dasturlari yordamida yozganman. Va shunga o'xshash web-dasturlash bilan bog'liq boshqa ko'nikmalarni orttirdim"
+    document.querySelector('a[href*="digitalgov.uz"] .exp-start').textContent = "2021 noyabr"
+    document.querySelector('a[href*="digitalgov.uz"] .exp-end').textContent = "2021 dekabr"
+    document.querySelector('a[href*="digitalgov.uz"] .experience-description-info').textContent = "DigitalGov Innovation HUB MChJda mentor. Maktab o'qituvchilariga C++ tilida dasturlash asoslaridan dars berganman. Lekin ustozlik davrim uzoq davom etmadi, chunki darslik ikki oyga mo‘ljallangan edi"
+    document.getElementsByClassName("basic-of-programming")[0].textContent = "dasturlash asoslari";
 } else if (lang === "ru") {
     document.getElementsByClassName("sider-profession")[0].textContent = "Full-stack разработчик";
     document.getElementsByClassName("sider-description")[0].textContent = "Я Full-Stack разработчик с опытом работы 2,5 года";
@@ -17,6 +24,14 @@ if (lang === "uz") {
     document.querySelector("#about>.title").textContent = "Обо мне";
     document.querySelector("#about>.info").textContent = "Я начал заниматься программированием, когда учился в университете. Фокус на информационной безопасности, близкий к области программирования, привел к моим первоначальным знаниям C++, Python и веб-программирования. Мой профессиональный опыт начался на 4-м курсе 2021 года";
     document.querySelector("#experience>.title").textContent = "Опыт";
+    document.querySelector('a[href*="transoxania.uz"] .experience-profession').textContent = "Full-stack разработчик"
+    document.querySelector('a[href*="transoxania.uz"] .exp-start').textContent = "2022 апрель"
+    document.querySelector('a[href*="transoxania.uz"] .exp-end').textContent = "до сих пор"
+    document.querySelector('a[href*="transoxania.uz"] .experience-description-info').textContent = "Веб-разработчик в Transoxania LLC. За 2,5 года работы я принял участие в десятках проектов. Мой технический уровень немного вырос. Я подготовил модель сущности некоторых проектов и даже стал TeamLead в некоторых проектах. В основном я писал API с использованием технологий NodeJS, ExpressJS, KnexJS, PostgreSQL, Redis и UI-программы с использованием ReactJS, Angular. Я также получил другие знания, связанные с веб-программированием."
+    document.querySelector('a[href*="digitalgov.uz"] .exp-start').textContent = "2021 ноябрь"
+    document.querySelector('a[href*="digitalgov.uz"] .exp-end').textContent = "2021 Декабрь"
+    document.querySelector('a[href*="digitalgov.uz"] .experience-description-info').textContent = "Mentor в DigitalGov Innovation HUB ООО. Я преподавал основы программирования на C++ школьным учителям. Мой период наставничества длился недолго, так как учебник был рассчитан на два месяца"
+    document.getElementsByClassName("basic-of-programming")[0].textContent = "основы программирования";
 } else if (lang === "en") {
     document.getElementsByClassName("sider-profession")[0].textContent = "Full stack developer";
     document.getElementsByClassName("sider-description")[0].textContent = "I am Full-Stack developer with 2.5 years experience";
@@ -26,4 +41,12 @@ if (lang === "uz") {
     document.querySelector("#about>.title").textContent = "About me";
     document.querySelector("#about>.info").textContent = "I started programming when I was studying at the university. An information security focus close to the field of programming led to my initial knowledge of C++, Python and Web programming. My professional experience started during my 4th year of 2021";
     document.querySelector("#experience>.title").textContent = "Experience";
+    document.querySelector('a[href*="transoxania.uz"] .experience-profession').textContent = "Full-Stack developer"
+    document.querySelector('a[href*="transoxania.uz"] .exp-start').textContent = "2022 april"
+    document.querySelector('a[href*="transoxania.uz"] .exp-end').textContent = "Present"
+    document.querySelector('a[href*="transoxania.uz"] .experience-description-info').textContent = "Web developer at Transoxania LLC. During my 2.5 years of work, I participated in dozens of projects. My technical level has increased a bit. I prepared entity model of some projects and even became TeamLead in some projects. I mainly wrote APIs using NodeJS, ExpressJS, KnexJS, PostgreSQL, Redis technologies and UI programs using ReactJS, Angular. I also gained other knowledge related to web programming"
+    document.querySelector('a[href*="digitalgov.uz"] .exp-start').textContent = "2021 nov"
+    document.querySelector('a[href*="digitalgov.uz"] .exp-end').textContent = "2021 Dec"
+    document.querySelector('a[href*="digitalgov.uz"] .experience-description-info').textContent = "Mentor at DigitalGov Innovation HUB LLC. I taught the basics of C++ programming to school teachers. My mentoring period did not last long because the textbook was designed for two months"
+    document.getElementsByClassName("basic-of-programming")[0].textContent = "basic of programming";
 }
