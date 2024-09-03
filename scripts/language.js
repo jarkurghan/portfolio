@@ -20,6 +20,7 @@ if (lang === "uz") {
     document.querySelector('.project.portfolio .project-description-info').textContent = "Shaxsiy portfoliom. Oldingi loyihalarim, shaxsiy ko'nikmalarim va professional tajribam haqida web-sayt";
     document.querySelector('a[href*="hotel.karvonsaroyi.uz"] .project-description-info').textContent = "Mehmonxona ish kuni portali. Mehmonxona uchun mehmonlar bilan ishlashni elektronlashtirish tizimi. Loyiha bir nechta dasturlardan iborat: Main, Admin, Mobile (tugatilmagan).";
     document.querySelector('a[href*="https://karvonsaroyi.uz"] .project-description-info').textContent = "Hotel portal loyihasi uchun booking (bron qilish) dasturi. Ochiq dastur. Foydalanuvchilar internet orqali mehmonxonalardan xona band qiladi";
+    document.querySelector('a[href*="ishkuni"] .project-description-info').textContent = "HR&Payroll. Kadrlar bo'limi va bugalteriya bo'limi uchun yordamchi dastur. Xodimlarni ishga olish, ularni lavozimlari bilan ishlash, ko'nikmalarini tatbiq qilish, maoshlar bilan ishlash va shunga o'xshash yuzlab ishlarni elektron ko'rinishdagi varianti. Loyiha o'ndan oshiq dasturlarga bo'lingan";
 } else if (lang === "ru") {
     document.getElementsByClassName("sider-profession")[0].textContent = "Full-stack разработчик";
     document.getElementsByClassName("sider-description")[0].textContent = "Я Full-Stack разработчик с опытом работы 2,5 года";
@@ -42,6 +43,7 @@ if (lang === "uz") {
     document.querySelector('.project.portfolio .project-description-info').textContent = "Мое личное портфолио. Сайт о моих предыдущих проектах, личных навыках и профессиональном опыте.";
     document.querySelector('a[href*="hotel.karvonsaroyi.uz"] .project-description-info').textContent = "Портал операционного дня отеля. Электронная система работы с гостями отеля. Проект состоит из нескольких программ: Основная, Админская, Мобильная (недоработанная).";
     document.querySelector('a[href*="https://karvonsaroyi.uz"] .project-description-info').textContent = "Программа бронирования для проекта портала оперативного дня отеля. Открытая программа. Пользователи бронируют номера в отелях онлайн";
+    document.querySelector('a[href*="ishkuni"] .project-description-info').textContent = "Кадры и заработная плата. Программа  для отдела кадров и бухгалтерии. Электронный вариант найма сотрудников, назначения им должностей, применения их навыков, работы с зарплатой и сотни подобных задач. Проект разделен на более чем десять программ";
 } else if (lang === "en") {
     document.getElementsByClassName("sider-profession")[0].textContent = "Full stack developer";
     document.getElementsByClassName("sider-description")[0].textContent = "I am Full-Stack developer with 2.5 years experience";
@@ -64,4 +66,5 @@ if (lang === "uz") {
     document.querySelector('.project.portfolio .project-description-info').textContent = "My personal portfolio. A website about my previous projects, personal skills and professional experience";
     document.querySelector('a[href*="hotel.karvonsaroyi.uz"] .project-description-info').textContent = "Hotel operational day portal. Electronic system for working with guests for the hotel. The project consists of several programs: Main, Admin, Mobile (unfinished).";
     document.querySelector('a[href*="https://karvonsaroyi.uz"] .project-description-info').textContent = "Booking program for hotel portal project. Open program. Users book hotel rooms online";
+    document.querySelector('a[href*="ishkuni"] .project-description-info').textContent = "HR&Payroll. A project for the HR department and the accounting department. An electronic option for hiring employees, assigning them positions, applying their skills, working with salaries and hundreds of similar tasks. The project is divided into more than ten programs";
 }
