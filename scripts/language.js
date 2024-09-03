@@ -17,6 +17,7 @@ if (lang === "uz") {
     document.getElementsByClassName("basic-of-programming")[0].textContent = "dasturlash asoslari";
     document.querySelector("#projects>.title").textContent = "Loyihalar";
     document.querySelector('a[href*="virtual-lugat.uz"] .project-description-info').textContent = "O'zbek tilidagi so'zlar ma'nolarining izohli lug'ati. G'oyasi o'zimga tegishli bo'lgan, har bir kodini o'zim yozgan birinchi proyekt. Proyekt admin va foydalanuvchi qismiga bo'linadi. Admin tomondan so'zlar va so'z haqida ma'lumotlar kiritiladi, foydalanuvchi tomon esa ochiq qidiruv tizimi kabi ishlaydi"
+    document.querySelector('.project.portfolio .project-description-info').textContent = "Shaxsiy portfoliom. Oldingi loyihalarim, shaxsiy ko'nikmalarim va professional tajribam haqida web-sayt";
 } else if (lang === "ru") {
     document.getElementsByClassName("sider-profession")[0].textContent = "Full-stack разработчик";
     document.getElementsByClassName("sider-description")[0].textContent = "Я Full-Stack разработчик с опытом работы 2,5 года";
@@ -36,6 +37,7 @@ if (lang === "uz") {
     document.getElementsByClassName("basic-of-programming")[0].textContent = "основы программирования";
     document.querySelector("#projects>.title").textContent = "Проекты";
     document.querySelector('a[href*="virtual-lugat.uz"] .project-description-info').textContent = "Толковый словарь значений слов узбекского языка. Это первый проект, где идея принадлежит мне и весь код я написал сам. Проект разделен на административную и пользовательскую часть. На стороне администратора вводятся слова и информация о словах, а на стороне пользователя работает как открытая поисковая система."
+    document.querySelector('.project.portfolio .project-description-info').textContent = "Мое личное портфолио. Сайт о моих предыдущих проектах, личных навыках и профессиональном опыте.";
 } else if (lang === "en") {
     document.getElementsByClassName("sider-profession")[0].textContent = "Full stack developer";
     document.getElementsByClassName("sider-description")[0].textContent = "I am Full-Stack developer with 2.5 years experience";
@@ -55,4 +57,5 @@ if (lang === "uz") {
     document.getElementsByClassName("basic-of-programming")[0].textContent = "basic of programming";
     document.querySelector("#projects>.title").textContent = "Projects";
     document.querySelector('a[href*="virtual-lugat.uz"] .project-description-info').textContent = "An explanatory dictionary of the meanings of words in the Uzbek language. This is the first project where the idea belongs to me and I wrote all the code myself. The project is divided into admin and user part. On the admin side, words and word information are entered, while the user side works like an open search engine"
+    document.querySelector('.project.portfolio .project-description-info').textContent = "My personal portfolio. A website about my previous projects, personal skills and professional experience";
 }
