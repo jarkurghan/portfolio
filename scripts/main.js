@@ -15,5 +15,5 @@ function showTranslate() {
 }
 
 const urlParams = new URLSearchParams(window.location.search);
-const lang = urlParams.get('lan') || "uz";
+const lang = urlParams.get("lan") || "uz";
 if (!["uz", "ru", "en"].includes(lang)) window.location.search = "?lan=uz";
