@@ -21,7 +21,7 @@ if (lang === "uz") {
     document.querySelector('a[href*="hotel.karvonsaroyi.uz"] .project-description-info').textContent = "Mehmonxona ish kuni portali. Mehmonxona uchun mehmonlar bilan ishlashni elektronlashtirish tizimi. Loyiha bir nechta dasturlardan iborat: Main, Admin, Mobile (tugatilmagan).";
     document.querySelector('a[href*="https://karvonsaroyi.uz"] .project-description-info').textContent = "Hotel portal loyihasi uchun booking (bron qilish) dasturi. Ochiq dastur. Foydalanuvchilar internet orqali mehmonxonalardan xona band qiladi";
     document.querySelector('a[href*="ishkuni"] .project-description-info').textContent = "HR&Payroll. Kadrlar bo'limi va bugalteriya bo'limi uchun yordamchi dastur. Xodimlarni ishga olish, ularni lavozimlari bilan ishlash, ko'nikmalarini tatbiq qilish, maoshlar bilan ishlash va shunga o'xshash yuzlab ishlarni elektron ko'rinishdagi varianti. Loyiha o'ndan oshiq dasturlarga bo'lingan";
-    document.querySelector('.projects-description-warning-info').textContent = "Yuqoridagi ba'zi dasturlarga kirish uchun men bilan bog'lanishingiz mumkin. Maxfiylik uchun parollarnii yozib qoldira olmayman";
+    document.querySelector('.projects-description-warning-info').textContent = "Yuqoridagi ba'zi dasturlarga kirish uchun men bilan bog'lanishingiz mumkin. Maxfiylik uchun parollarni yozib qoldira olmayman";
     document.querySelector('.translate-text').textContent = "tarjima";
 } else if (lang === "ru") {
     document.getElementsByClassName("sider-profession")[0].textContent = "Full-stack разработчик";
