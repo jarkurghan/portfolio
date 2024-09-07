@@ -25,7 +25,7 @@ if (lang === "uz") {
     document.querySelector(".project.portfolio .project-description-info").textContent =
         "Shaxsiy portfoliom. Oldingi loyihalarim, shaxsiy ko'nikmalarim va professional tajribam haqida web-sayt";
     document.querySelector('a[href*="142.93.128.235"] .project-description-info').textContent =
-        "Mehmonxona ish kuni portali. Mehmonxona uchun mehmonlar bilan ishlashni elektronlashtirish tizimi. Loyiha bir nechta dasturlardan iborat: Main, Admin, Mobile (tugatilmagan).";
+        "Mehmonxona ish kuni portali. Mehmonxona uchun mehmonlar bilan ishlashni elektronlashtirish tizimi. Loyiha bir nechta dasturlardan iborat: Main, Admin, Mobile (tugatilmagan), Web-sayt (tugatilmagan).";
     document.querySelector('a[href*="karvonsaroyi.uz"] .project-description-info').textContent =
         "Hotel portal loyihasi uchun booking (bron qilish) dasturi. Ochiq dastur. Foydalanuvchilar internet orqali mehmonxonalardan xona band qiladi";
     document.querySelector('a[href*="ishkuni"] .project-description-info').textContent =
@@ -60,7 +60,7 @@ if (lang === "uz") {
     document.querySelector(".project.portfolio .project-description-info").textContent =
         "Мое личное портфолио. Сайт о моих предыдущих проектах, личных навыках и профессиональном опыте.";
     document.querySelector('a[href*="142.93.128.235"] .project-description-info').textContent =
-        "Портал операционного дня отеля. Электронная система работы с гостями отеля. Проект состоит из нескольких программ: Основная, Админская, Мобильная (недоработанная).";
+        "Портал операционного дня отеля. Электронная система работы с гостями отеля. Проект состоит из нескольких программ: Основная, Админская, Мобильная (недоработанная), Веб-сайт (недоработанная).";
     document.querySelector('a[href*="karvonsaroyi.uz"] .project-description-info').textContent =
         "Программа бронирования для проекта портала оперативного дня отеля. Открытая программа. Пользователи бронируют номера в отелях онлайн";
     document.querySelector('a[href*="ishkuni"] .project-description-info').textContent =
@@ -95,7 +95,7 @@ if (lang === "uz") {
     document.querySelector(".project.portfolio .project-description-info").textContent =
         "My personal portfolio. A website about my previous projects, personal skills and professional experience";
     document.querySelector('a[href*="142.93.128.235"] .project-description-info').textContent =
-        "Hotel operational day portal. Electronic system for working with guests for the hotel. The project consists of several programs: Main, Admin, Mobile (unfinished).";
+        "Hotel operational day portal. Electronic system for working with guests for the hotel. The project consists of several programs: Main, Admin, Mobile (unfinished), Website (unfinished).";
     document.querySelector('a[href*="karvonsaroyi.uz"] .project-description-info').textContent =
         "Booking program for hotel portal project. Open program. Users book hotel rooms online";
     document.querySelector('a[href*="ishkuni"] .project-description-info').textContent =
