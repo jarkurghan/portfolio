@@ -1,4 +1,5 @@
 if (lang === "uz") {
+    document.getElementsByClassName("sider-name")[0].textContent = "Najmiddin Nazirov";
     document.getElementsByClassName("sider-profession")[0].textContent = "Full-Stack dasturchi";
     document.getElementsByClassName("sider-description")[0].textContent = "Men 2,5 yillik tajribaga ega Full-Stack dasturchiman";
     document.querySelector('a[href="#about"]').textContent = "⊳ Men haqimda";
@@ -33,6 +34,7 @@ if (lang === "uz") {
         "Yuqoridagi ba'zi dasturlarga kirish uchun men bilan bog'lanishingiz mumkin. Maxfiylik uchun parollarni yozib qoldira olmayman";
     document.querySelector(".translate-text").textContent = "tarjima";
 } else if (lang === "ru") {
+    document.getElementsByClassName("sider-name")[0].textContent = "Нажмиддин Назиров";
     document.getElementsByClassName("sider-profession")[0].textContent = "Full-stack разработчик";
     document.getElementsByClassName("sider-description")[0].textContent = "Я Full-Stack разработчик с опытом работы 2,5 года";
     document.querySelector('a[href="#about"]').textContent = "⊳ Обо мне";
@@ -67,6 +69,7 @@ if (lang === "uz") {
         "Вы можете связаться со мной, чтобы получить доступ к некоторым из вышеперечисленных программ. Я не могу записывать пароли для конфиденциальности";
     document.querySelector(".translate-text").textContent = "перевод";
 } else if (lang === "en") {
+    document.getElementsByClassName("sider-name")[0].textContent = "Najmiddin Nazirov";
     document.getElementsByClassName("sider-profession")[0].textContent = "Full stack developer";
     document.getElementsByClassName("sider-description")[0].textContent = "I am Full-Stack developer with 2.5 years experience";
     document.querySelector('a[href="#about"]').textContent = "⊳ About me";
