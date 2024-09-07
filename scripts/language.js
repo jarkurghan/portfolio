@@ -24,9 +24,9 @@ if (lang === "uz") {
         "O'zbek tilidagi so'zlar ma'nolarining izohli lug'ati. G'oyasi o'zimga tegishli bo'lgan, har bir kodini o'zim yozgan birinchi proyekt. Proyekt admin va foydalanuvchi qismiga bo'linadi. Admin tomondan so'zlar va so'z haqida ma'lumotlar kiritiladi, foydalanuvchi tomon esa ochiq qidiruv tizimi kabi ishlaydi";
     document.querySelector(".project.portfolio .project-description-info").textContent =
         "Shaxsiy portfoliom. Oldingi loyihalarim, shaxsiy ko'nikmalarim va professional tajribam haqida web-sayt";
-    document.querySelector('a[href*="hotel.karvonsaroyi.uz"] .project-description-info').textContent =
+    document.querySelector('a[href*="142.93.128.235"] .project-description-info').textContent =
         "Mehmonxona ish kuni portali. Mehmonxona uchun mehmonlar bilan ishlashni elektronlashtirish tizimi. Loyiha bir nechta dasturlardan iborat: Main, Admin, Mobile (tugatilmagan).";
-    document.querySelector('a[href*="https://karvonsaroyi.uz"] .project-description-info').textContent =
+    document.querySelector('a[href*="karvonsaroyi.uz"] .project-description-info').textContent =
         "Hotel portal loyihasi uchun booking (bron qilish) dasturi. Ochiq dastur. Foydalanuvchilar internet orqali mehmonxonalardan xona band qiladi";
     document.querySelector('a[href*="ishkuni"] .project-description-info').textContent =
         "HR&Payroll. Kadrlar bo'limi va bugalteriya bo'limi uchun yordamchi dastur. Xodimlarni ishga olish, ularni lavozimlari bilan ishlash, ko'nikmalarini tatbiq qilish, maoshlar bilan ishlash va shunga o'xshash yuzlab ishlarni elektron ko'rinishdagi varianti. Loyiha o'ndan oshiq dasturlarga bo'lingan";
@@ -59,9 +59,9 @@ if (lang === "uz") {
         "Толковый словарь значений слов узбекского языка. Это первый проект, где идея принадлежит мне и весь код я написал сам. Проект разделен на административную и пользовательскую часть. На стороне администратора вводятся слова и информация о словах, а на стороне пользователя работает как открытая поисковая система.";
     document.querySelector(".project.portfolio .project-description-info").textContent =
         "Мое личное портфолио. Сайт о моих предыдущих проектах, личных навыках и профессиональном опыте.";
-    document.querySelector('a[href*="hotel.karvonsaroyi.uz"] .project-description-info').textContent =
+    document.querySelector('a[href*="142.93.128.235"] .project-description-info').textContent =
         "Портал операционного дня отеля. Электронная система работы с гостями отеля. Проект состоит из нескольких программ: Основная, Админская, Мобильная (недоработанная).";
-    document.querySelector('a[href*="https://karvonsaroyi.uz"] .project-description-info').textContent =
+    document.querySelector('a[href*="karvonsaroyi.uz"] .project-description-info').textContent =
         "Программа бронирования для проекта портала оперативного дня отеля. Открытая программа. Пользователи бронируют номера в отелях онлайн";
     document.querySelector('a[href*="ishkuni"] .project-description-info').textContent =
         "Кадры и заработная плата. Программа  для отдела кадров и бухгалтерии. Электронный вариант найма сотрудников, назначения им должностей, применения их навыков, работы с зарплатой и сотни подобных задач. Проект разделен на более чем десять программ";
@@ -94,9 +94,9 @@ if (lang === "uz") {
         "An explanatory dictionary of the meanings of words in the Uzbek language. This is the first project where the idea belongs to me and I wrote all the code myself. The project is divided into admin and user part. On the admin side, words and word information are entered, while the user side works like an open search engine";
     document.querySelector(".project.portfolio .project-description-info").textContent =
         "My personal portfolio. A website about my previous projects, personal skills and professional experience";
-    document.querySelector('a[href*="hotel.karvonsaroyi.uz"] .project-description-info').textContent =
+    document.querySelector('a[href*="142.93.128.235"] .project-description-info').textContent =
         "Hotel operational day portal. Electronic system for working with guests for the hotel. The project consists of several programs: Main, Admin, Mobile (unfinished).";
-    document.querySelector('a[href*="https://karvonsaroyi.uz"] .project-description-info').textContent =
+    document.querySelector('a[href*="karvonsaroyi.uz"] .project-description-info').textContent =
         "Booking program for hotel portal project. Open program. Users book hotel rooms online";
     document.querySelector('a[href*="ishkuni"] .project-description-info').textContent =
         "HR&Payroll. A project for the HR department and the accounting department. An electronic option for hiring employees, assigning them positions, applying their skills, working with salaries and hundreds of similar tasks. The project is divided into more than ten programs";
