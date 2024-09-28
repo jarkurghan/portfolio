@@ -1,4 +1,5 @@
 // scp -r . root@178.128.243.52:/var/www/portfolio
+// scp -r ../portfolio root@178.128.243.52:/var/www/portfolio
 
 document.onclick = (event) => {
     const isTranlate = event.target.getAttribute("class") === "translate-icon" || event.target.getAttribute("class") === "translate-text";
@@ -15,5 +16,5 @@ function showTranslate() {
 }
 
 const urlParams = new URLSearchParams(window.location.search);
-const lang = urlParams.get('lan') || "uz";
+const lang = urlParams.get("lan") || "uz";
 if (!["uz", "ru", "en"].includes(lang)) window.location.search = "?lan=uz";
